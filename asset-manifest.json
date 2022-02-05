@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/miniBookShop/static/css/main.d09e2877.css",
+    "main.js": "/miniBookShop/static/js/main.d4d3291d.js",
+    "static/js/787.9bac4c1b.chunk.js": "/miniBookShop/static/js/787.9bac4c1b.chunk.js",
+    "index.html": "/miniBookShop/index.html",
+    "main.d09e2877.css.map": "/miniBookShop/static/css/main.d09e2877.css.map",
+    "main.d4d3291d.js.map": "/miniBookShop/static/js/main.d4d3291d.js.map",
+    "787.9bac4c1b.chunk.js.map": "/miniBookShop/static/js/787.9bac4c1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d09e2877.css",
+    "static/js/main.d4d3291d.js"
+  ]
+}
