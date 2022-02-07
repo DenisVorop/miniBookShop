@@ -20,7 +20,18 @@ code {
 }
 
 .container {
-    width: 1240px;
+    width: 737px;
+    padding: 0 15px;
     margin: 0 auto;
     box-sizing: content-box;
+}
+@media (max-width: 767.9px) {
+    .container {
+        width: 540px;
+    }
+}
+@media (max-width: 567px) {
+    .container {
+        width: 300px;
+    }
 }

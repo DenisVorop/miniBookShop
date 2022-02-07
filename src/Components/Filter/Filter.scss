@@ -8,11 +8,22 @@
         padding: 5px 10px;
         display: flex;
         align-items: center;
+        justify-content: center;
         width: 100%;
         margin: 0px 0px 20px 0px;
     }
 
     button:hover {
         background-color: rgb(235, 235, 235);
+    }
+
+    @media (max-width: 567.9px) {
+        margin: 0px 0px 20px 0px;
+        padding: 10px 10px 0 10px;
+        width: 300px;
+
+        button {
+            margin: 0px 0px 10px 0px;
+        }
     }
 }

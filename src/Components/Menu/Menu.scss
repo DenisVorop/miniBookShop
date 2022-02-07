@@ -5,30 +5,69 @@
     &__row {
         display: flex;
         align-items: center;
+
+        @media (max-width: 567px) {
+            display: block;
+
+            * {
+                margin: 0px 0px 5px 0px;
+            }
+        }
+    }
+
+    &__flex {
+        display: flex;
+    }
+
+    &__flex {
+        @media (max-width: 567px) {
+            display: flex;
+        }
     }
 
     &__logo {
         padding: 10px 20px;
         border: 1px solid #000000;
         border-radius: 10px 0 0 10px;
+        border-right: none;
+
+        @media (max-width: 567px) {
+            padding: 5px 10px;
+        }
+
+        @media (max-width: 567px) {
+            text-align: center;
+            border-radius: 0px;
+            border: 1px solid #000000;
+        }
     }
 
     &__input {
-        padding: 9px 20px;
-        border: 1px solid #000000;
         display: flex;
         flex: 1 1;
+
+        @media (max-width: 567px) {
+            flex: 0 0;
+        }
     }
 
     &__total {
-        padding: 10px 20px;
         border: 1px solid #000000;
+        border-right: none;
+
+        @media (max-width: 567px) {
+            border-radius: 0px;
+            border: 1px solid #000000;
+        }
     }
 
     &__cart {
-        padding: 10px 20px;
         border: 1px solid #000000;
         border-radius: 0px 10px 10px 0px;
+
+        @media (max-width: 567px) {
+            border-radius: 0px;
+        }
     }
 }
 
@@ -38,14 +77,46 @@
             border: 1px solid #000000;
             padding: 4px 20px;
             color: #1d1d1d;
-            font-size: 16px;
-            min-width: 300px;
+            width: 462.47px;
+            height: 40.19px;
+
+            @media (max-width: 767.9px) {
+                width: 262.47px;
+            }
+
+            @media (max-width: 567px) {
+                padding: 4px 10px;
+                margin: 0;
+                width: 235px;
+            }
+        }
+
+        @media (max-width: 567px) {
+            margin: 0;
         }
     }
 }
 
-.total {
-    &__price {}
+.price {
+    &__cart {
+        padding: 10px 14px;
+        width: 90px;
+
+        @media (max-width: 567px) {
+            padding: 5px 10px;
+        }
+    }
+}
+
+.elements {
+    &__cart {
+        padding: 10px 10px;
+        width: 101px;
+
+        @media (max-width: 567px) {
+            padding: 5px 10px;
+        }
+    }
 }
 
 .cart__active {

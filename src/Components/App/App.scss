@@ -2,4 +2,11 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
+    @media (max-width: 767.9px) {
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+    }
+    @media (max-width: 567.9px) {
+        display: block;
+    }
 }

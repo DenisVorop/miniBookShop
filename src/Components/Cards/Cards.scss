@@ -1,32 +1,59 @@
-.cards__wrapper {}
+.cards__wrapper {
+}
 
 .card__row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+
+    @media (max-width: 767.9px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .card {
     border-radius: 10px;
     border: 1px solid #000000;
     padding: 10px;
+    @media (max-width: 567.9px) {
+        width: 300px;
+    }
 
     &__item {}
 }
 
 .item-card {
     display: flex;
-    flex-direction: column;
     align-items: center;
     height: 100%;
+    flex-direction: column;
+
+    &__description {
+        display: none;
+        @media (max-width: 767.9px) {
+            display: block;
+        }
+    }
+
+    &__ita {
+        @media (max-width: 767.9px) {
+            display: flex;
+            width: 100%;
+        }
+    }
 
     &__image {
         margin: 0px 0px 10px 0px;
-
+        @media (max-width: 767.9px) {
+            margin: 0px 20px 10px 0px;
+        }
         img {
-            box-sizing: border-box;
-            width: 269px;
-            height: 295px;
+            width: 150px;
+            height: 200px;
+            @media (max-width: 567.9px) {
+                width: 100px;
+                height: 150px;
+            }
         }
     }
 
