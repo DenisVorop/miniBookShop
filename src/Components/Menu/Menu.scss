@@ -24,10 +24,13 @@
     }
 
     &__logo {
-        padding: 10px 20px;
+        padding: 9px 20px;
         border: 1px solid #000000;
         border-radius: 10px 0 0 10px;
         border-right: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         @media (max-width: 567px) {
             padding: 5px 10px;
@@ -99,10 +102,12 @@
     &__cart {
         padding: 10px 14px;
         width: 130px;
+
         @media (max-width: 767px) {
             width: 110px;
             padding: 10px 5px;
         }
+
         @media (max-width: 567px) {
             width: 150px;
             padding: 5px 5px;
@@ -114,10 +119,12 @@
     &__cart {
         padding: 10px 10px;
         width: 130px;
+
         @media (max-width: 767px) {
             width: 110px;
             padding: 10px 5px;
         }
+
         @media (max-width: 567px) {
             width: 150px;
             padding: 5px 5px;
@@ -146,8 +153,13 @@
     }
 
     &__margin {
-        margin: 0px 10px 0 20px;
+        margin: 0 5px;
         width: 100%;
+
+        @media (max-width: 567px) {
+            max-width: 120.55px;
+            overflow: hidden;
+        }
     }
 }
 
@@ -164,6 +176,7 @@
         margin: 41px 0px 0px 0px;
         min-height: 200px;
         width: 420px;
+
         @media (max-width: 567px) {
             width: 300px;
             margin: 95px 0px 0px 0px;

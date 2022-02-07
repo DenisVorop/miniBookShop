@@ -71,8 +71,6 @@
     &__price {
         margin: 0px 0px 10px 0px;
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 4fr;
     }
 
     &__button {
@@ -87,4 +85,5 @@
 
 .rub {
     border-bottom: 1px solid #000000;
+    width: 50px;
 }
