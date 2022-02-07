@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/miniBookShop/static/css/main.eb07fab2.css",
+    "main.css": "/miniBookShop/static/css/main.0785a57c.css",
     "main.js": "/miniBookShop/static/js/main.541bc219.js",
     "static/js/787.9bac4c1b.chunk.js": "/miniBookShop/static/js/787.9bac4c1b.chunk.js",
     "index.html": "/miniBookShop/index.html",
-    "main.eb07fab2.css.map": "/miniBookShop/static/css/main.eb07fab2.css.map",
+    "main.0785a57c.css.map": "/miniBookShop/static/css/main.0785a57c.css.map",
     "main.541bc219.js.map": "/miniBookShop/static/js/main.541bc219.js.map",
     "787.9bac4c1b.chunk.js.map": "/miniBookShop/static/js/787.9bac4c1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb07fab2.css",
+    "static/css/main.0785a57c.css",
     "static/js/main.541bc219.js"
   ]
 }
