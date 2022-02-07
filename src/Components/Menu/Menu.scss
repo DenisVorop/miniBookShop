@@ -8,10 +8,6 @@
 
         @media (max-width: 567px) {
             display: block;
-
-            * {
-                margin: 0px 0px 5px 0px;
-            }
         }
     }
 
@@ -22,6 +18,8 @@
     &__flex {
         @media (max-width: 567px) {
             display: flex;
+            margin: 0px 0px 10px 0px;
+            width: 100%;
         }
     }
 
@@ -77,17 +75,17 @@
             border: 1px solid #000000;
             padding: 4px 20px;
             color: #1d1d1d;
-            width: 462.47px;
-            height: 40.19px;
+            width: 390px;
+            height: 40px;
 
             @media (max-width: 767.9px) {
-                width: 262.47px;
+                width: 235px;
             }
 
             @media (max-width: 567px) {
                 padding: 4px 10px;
                 margin: 0;
-                width: 235px;
+                width: 240px;
             }
         }
 
@@ -100,10 +98,14 @@
 .price {
     &__cart {
         padding: 10px 14px;
-        width: 90px;
-
+        width: 130px;
+        @media (max-width: 767px) {
+            width: 110px;
+            padding: 10px 5px;
+        }
         @media (max-width: 567px) {
-            padding: 5px 10px;
+            width: 150px;
+            padding: 5px 5px;
         }
     }
 }
@@ -111,10 +113,14 @@
 .elements {
     &__cart {
         padding: 10px 10px;
-        width: 101px;
-
+        width: 130px;
+        @media (max-width: 767px) {
+            width: 110px;
+            padding: 10px 5px;
+        }
         @media (max-width: 567px) {
-            padding: 5px 10px;
+            width: 150px;
+            padding: 5px 5px;
         }
     }
 }
@@ -155,9 +161,13 @@
         border-radius: 10px;
         padding: 10px;
         display: flex;
-        margin: 50px 0px 0px 0px;
+        margin: 41px 0px 0px 0px;
         min-height: 200px;
         width: 420px;
+        @media (max-width: 567px) {
+            width: 300px;
+            margin: 95px 0px 0px 0px;
+        }
 
         img {
             width: 50px;

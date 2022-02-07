@@ -11,19 +11,19 @@
         justify-content: center;
         width: 100%;
         margin: 0px 0px 20px 0px;
+        @media (max-width: 767.9px) {
+            margin: 0px 0px 10px 0px;
+        }
     }
 
     button:hover {
         background-color: rgb(235, 235, 235);
     }
-
-    @media (max-width: 567.9px) {
-        margin: 0px 0px 20px 0px;
+    @media (max-width: 767.9px) {
         padding: 10px 10px 0 10px;
+    }
+    @media (max-width: 567.9px) {
         width: 300px;
-
-        button {
-            margin: 0px 0px 10px 0px;
-        }
+        margin: 0px 0px 20px 0px;
     }
 }
